@@ -172,7 +172,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "فکر می کردم ساختن وب سایتی به زیبایی محصول ما غیرممکن است، اما علی به من ثابت کرد که اشتباه می کنم.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -180,7 +180,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "من هرگز توسعه دهنده وب را ندیده ام که واقعاً مانند علی به موفقیت مشتریان خود اهمیت دهد.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -188,7 +188,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "پس از اینکه علی وب سایت ما را بهینه کرد، ترافیک ما 50٪ افزایش یافت. ما نمی توانیم به اندازه کافی از آنها تشکر کنیم!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",

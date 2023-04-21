@@ -45,8 +45,10 @@ const ProjectCard = ({
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">
-          {tags.map((tag) =>(
-            <p key={tag.name} className={`text-[14px] ${tag.color}`}>{tag.name}#</p>
+          {tags.map((tag) => (
+            <p key={tag.name} className={`text-[14px] ${tag.color}`}>
+              {tag.name}#
+            </p>
           ))}
         </div>
       </Tilt>
@@ -81,4 +83,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "work");
