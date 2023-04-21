@@ -15,9 +15,45 @@ const Contact = () => {
   });
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {};
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value });
+  };
 
-  const handleSubmit = (e) => {};
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs
+      .send(
+        "service_rzywnuf",
+        "template_4swx3ij",
+        {
+          from_name: form.name,
+          to_name: "AliMoradpour",
+          from_email: form.email,
+          to_email: "alinumber61@gmail.com",
+          message: form.message,
+        },
+        "6W7c8HC2Dp18oXvlz"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert("ممنونم از پیامتون :) در سریع ترین زمان ممکن بهش پاسخ میدم");
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+          console.log(error);
+          alert("فکر کنم یه چیزی اشتباهه :(");
+        }
+      );
+  };
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
@@ -75,8 +111,8 @@ const Contact = () => {
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
         className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]">
-          <EarthCanvas />
-        </motion.div>
+        <EarthCanvas />
+      </motion.div>
     </div>
   );
 };
