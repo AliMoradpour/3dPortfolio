@@ -198,9 +198,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "اجاره ماشین",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "پلتفرم مبتنی بر وب که به کاربران امکان جستجو، رزرو و مدیریت اجاره خودرو از ارائه دهندگان مختلف را می دهد و راه حلی راحت و کارآمد برای نیازهای حمل و نقل ارائه می دهد.",
     tags: [
       {
         name: "react",
@@ -219,9 +219,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "شغل یاب",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "برنامه وب که به کاربران امکان می دهد فرصت های شغلی را جستجو کنند، محدوده دستمزد تخمینی را برای موقعیت ها مشاهده کنند، و مشاغل موجود را بر اساس مکان فعلی خود بیابند.",
     tags: [
       {
         name: "react",
@@ -240,9 +240,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "همراه سفر",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "یک پلتفرم جامع رزرو سفر که به کاربران امکان رزرو پروازها، هتل ها و ماشین های کرایه ای را می دهد و توصیه هایی را برای مقاصد محبوب ارائه می دهد.",
     tags: [
       {
         name: "nextjs",

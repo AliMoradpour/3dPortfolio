@@ -52,7 +52,7 @@ const Experience = () => {
         <h2 className={styles.sectionHeadText}>نمای کلی</h2>
       </motion.div>
 
-      <div className="mt-20 flex flex-col">
+      <div className="mt-20 flex flex-col dir-ltr">
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard key={index} experience={experience} />
